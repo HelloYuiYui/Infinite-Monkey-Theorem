@@ -15,9 +15,6 @@ count = 0
 #string to find within the letters.
 quote = input("what word do you want to generate: ")
 #limitation to quote's lenght. it tooks a lot of time and consumes computer's energy.
-while len(quote) > 10:
-    print("we cannot take an input longer than 10 characters for the safety of the computer, and it lasts too long.")
-    quote = input("what word do you want to generate: ")
 print("waiting for computer to calculate...")
 print("")
 print("fun fact: the possibility to find your unique string is approximately 1/" + str((27**(len(quote)))))
